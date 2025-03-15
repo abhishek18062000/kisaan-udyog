@@ -6,21 +6,38 @@ import { ThumbsUp, MessageCircle, Share2 } from "lucide-react";
 export default function FarmerCommunity() {
   const [posts, setPosts] = useState([
     {
-      id: 1,
-      author: "Rajesh Kumar",
-      content: "🌾 See my farm with modern tech! Feeling blessed 🙏",
-      image: "/images/areo.jpg",
+        id: 1,
+        author: "Abhishek Maurya",
+        content: "🌾 YE MAI HAI.. BOLE THO MOST HANDSOME BOI 🙏",
+        image: "/images/abhishh.jpeg",
+        likes: 10000000,
+        comments: [],
+    },
+    {
+      id: 2,
+      author: "CallMeAbhi",
+      content: "🌾 YE EYE CONTACT BHI KY CHEEJ HAI YAAR  🙏",
+      image: "/images/eye.jpg",
       likes: 12,
       comments: [],
     },
     {
-      id: 2,
-      author: "Suman Devi",
-      content: "🍅 Planted organic tomatoes today! Hope they grow well. 🍀",
-      image: "/images/gren.jpg",
+      id: 3,
+      author: "PABLU YADAV",
+      content: "🍅 DOSA IDLI SAMBAR CHUTNEY CHUTNEY 🍀",
+      image: "/images/flower.jpg",
       likes: 8,
       comments: [],
     },
+    
+      {
+        id: 4,
+        author: "Badri Ki Dhulaniya",
+        content: "🍅 AAAPATIJANAK SITUATION. 🍀",
+        image: "/images/insect.jpeg",
+        likes: 0,
+        comments: [],
+      },
   ]);
 
   // Handle Like
